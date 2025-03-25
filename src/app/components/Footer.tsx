@@ -2,10 +2,10 @@ export default function Footer() {
     return (
 
 
-<footer className="bg-white rounded-lg shadow-sm m-4">
+<footer className="bg-white m-4">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-            <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <a href="https://www.linkedin.com/in/rodrigo-v%C3%A1squez-34425924b/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <img src="/coding.svg" className="h-8" alt="Flowbite Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap">Rodrigo Vas-dev</span>
             </a>
@@ -20,7 +20,7 @@ export default function Footer() {
                     <a href="https://github.com/rodrigovasdev" className="hover:underline me-4 md:me-6">Github</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/rodrigo-v%C3%A1squez-34425924b/" className="hover:underline me-4 md:me-6">Likedin</a>
+                    <a href="https://www.linkedin.com/in/rodrigo-v%C3%A1squez-34425924b/" className="hover:underline me-4 md:me-6">Linkedin</a>
                 </li>
                 <li>
                     <a href="#contact" className="hover:underline">Contact</a>
