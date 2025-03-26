@@ -10,8 +10,8 @@ export default function Form() {
     };
 
     return (
-        <section id="contact" className="">
-            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <section id="contact" className="p-5 md:p-20 py-18">
+            <div className="px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-7xl tracking-tight font-extrabold text-gray-900 text-center ">Work Wi<span className="text-purple-500">th Me</span></h2>
                 {isSubmitted ? (
                     <div className="text-center">

@@ -16,6 +16,13 @@ export const CAREER_DATA: CareerData[] = [
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
+        company: "Photosgram",
+        title: "Personal Portfolio",
+        description: "A web app I built for sharing high-resolution photos, developed with Django, React, Next.js, Tailwind CSS, and AWS.",
+        date: "Jan 2025",
+        longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    },
+    {
         company: "IBM",
         title: "Student Intern",
         description: "During my internship at IBM, I actively worked on development projects involving COBOL programming for a financial client, gaining valuable skills in designing efficient solutions and effectively maintaining critical software.",
@@ -29,11 +36,5 @@ export const CAREER_DATA: CareerData[] = [
         date: "Mar 2020 - Dec 2023",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
-    {
-        company: "Photosgram",
-        title: "Personal Portfolio",
-        description: "A web application created with the purpose of publicly displaying my photos without any form of compression, in order to maintain their full resolution and quality.",
-        date: "Jan 2025",
-        longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
+    
 ]

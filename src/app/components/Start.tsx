@@ -33,7 +33,7 @@ export default function Start() {
     }, []);
 
     return (
-        <section id="home" className="h-screen bg-gray-100 text-center content-center grid gap-6">
+        <section id="home" className="h-screen bg-gray-100 px-5 md:px-0 text-center content-center grid gap-6">
             <h1 className="text-6xl">{h1Text}</h1>
             <span style={{ whiteSpace: "pre-line" }}>{spanText}</span>
             <div className="flex justify-center gap-6">
@@ -41,7 +41,7 @@ export default function Start() {
                     href="#career"
                     className="bg-purple-500 cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full"
                 >
-                    View my career
+                    View My Career
                 </a>
                 <a
                     href="#contact"
