@@ -56,8 +56,8 @@ export default function Header() {
                 href="#home"
                 className={`block py-2 px-3 ${
                   activeSection === "home"
-                    ? "text-purple-700 underline underline-offset-8"
-                    : "text-gray-900"
+                   ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
+      : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
                 Home
@@ -67,9 +67,9 @@ export default function Header() {
               <a
                 href="#career"
                 className={`block py-2 px-3 ${
-                  activeSection === "career"
-                    ? "text-purple-700 underline underline-offset-8"
-                    : "text-gray-900"
+                  activeSection === "home"
+                   ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
+      : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
                 Career
@@ -79,9 +79,9 @@ export default function Header() {
               <a
                 href="#about"
                 className={`block py-2 px-3 ${
-                  activeSection === "about"
-                    ? "text-purple-700 underline underline-offset-8"
-                    : "text-gray-900"
+                  activeSection === "home"
+                   ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
+      : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
                 About
@@ -91,9 +91,9 @@ export default function Header() {
               <a
                 href="#contact"
                 className={`block py-2 px-3 ${
-                  activeSection === "contact"
-                    ? "text-purple-700 underline underline-offset-8"
-                    : "text-gray-900"
+                  activeSection === "home"
+                   ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
+      : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
                 Contact
