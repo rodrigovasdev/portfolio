@@ -67,7 +67,7 @@ export default function Header() {
               <a
                 href="#career"
                 className={`block py-2 px-3 ${
-                  activeSection === "home"
+                  activeSection === "career"
                    ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
       : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
@@ -79,7 +79,7 @@ export default function Header() {
               <a
                 href="#about"
                 className={`block py-2 px-3 ${
-                  activeSection === "home"
+                  activeSection === "about"
                    ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
       : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
@@ -91,7 +91,7 @@ export default function Header() {
               <a
                 href="#contact"
                 className={`block py-2 px-3 ${
-                  activeSection === "home"
+                  activeSection === "contact"
                    ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
       : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
