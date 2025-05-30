@@ -25,7 +25,7 @@ export default function Header() {
   return (
     <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="#" className="w-1/4 flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="/coding.svg"
             className="h-10"
@@ -35,13 +35,13 @@ export default function Header() {
             Rodrigo Vas-dev
           </span>
         </a>
-        <div className="flex items-center lg:order-2">
+        <div className="w-1/4 flex justify-end  lg:order-2">
         <a
                     href="/cv.pdf"
                     download="Rodrigo_Vasquez_CV.pdf"
                     className="bg-purple-500 hidden md:flex cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full"
                 >
-                    Download CV
+                    Download Resume
                 </a>
                 {/* <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
@@ -50,8 +50,8 @@ export default function Header() {
                 </button> */}
             </div>
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
-            <li>
+          <ul className="flex flex-col gap-5 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+            <li className="mx-auto">
               <a
                 href="#home"
                 className={`block py-2 px-3 ${
@@ -63,7 +63,7 @@ export default function Header() {
                 Home
               </a>
             </li>
-            <li>
+            <li className="mx-auto">
               <a
                 href="#career"
                 className={`block py-2 px-3 ${
@@ -75,25 +75,25 @@ export default function Header() {
                 Career
               </a>
             </li>
-            <li>
+            <li className="mx-auto">
               <a
                 href="#about"
                 className={`block py-2 px-3 ${
                   activeSection === "about"
                    ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
-      : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
+                    : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
                 About
               </a>
             </li>
-            <li>
+            <li className="mx-auto">
               <a
                 href="#contact"
                 className={`block py-2 px-3 ${
                   activeSection === "contact"
                    ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
-      : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
+                  : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
                 Contact
