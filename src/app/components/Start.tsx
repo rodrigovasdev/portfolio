@@ -53,10 +53,10 @@ export default function Start() {
                     View My Career
                 </a>
                 <a
-                    href="#contact"
+                    href="https://www.linkedin.com/in/rodrigo-v%C3%A1squez-34425924b/"
                     className="bg-blue-500 cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
                 >
-                    Contact Me
+                    LinkedIn
                 </a>
             </div>
         </section>
