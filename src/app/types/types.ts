@@ -4,4 +4,7 @@ export interface CareerData{
     description: string;
     date: string;
     longDescription: string;
+    images?: {
+        original: string;
+    }[] | undefined;
 }

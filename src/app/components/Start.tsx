@@ -6,8 +6,8 @@ export default function Start() {
     const [spanText, setSpanText] = useState(``);
 
     useEffect(() => {
-        const h1Content = `   Hi, I'm Rodrigo`;
-        const spanContent = `  Software Engineer at Pontificia Universidad Católica de Valparaíso  \nand passionate full-stack developer crafting innovative digital solutions.`;
+        const h1Content = `     Hi, I'm Rodrigo`;
+        const spanContent = `   Software Engineer at Pontificia Universidad Católica de Valparaíso  \nand passionate full-stack developer crafting innovative digital solutions.`;
         let h1Index = 0;
         let spanIndex = 0; 
 
@@ -15,7 +15,7 @@ export default function Start() {
             if (h1Index < h1Content.length - 1) {
                 setH1Text((prev) => prev + h1Content[h1Index]);
                 h1Index++;
-                setTimeout(typeH1, 100); // Velocidad de escritura para el h1
+                setTimeout(typeH1, 150); // Velocidad de escritura para el h1
             } else {
                 typeSpan(); // Inicia la escritura del span después de terminar el h1
             }
@@ -25,7 +25,7 @@ export default function Start() {
             if (spanIndex < spanContent.length - 1) {
                 setSpanText((prev) => prev + spanContent[spanIndex]);
                 spanIndex++;
-                setTimeout(typeSpan, 50); // Velocidad de escritura para el span
+                setTimeout(typeSpan, 60); // Velocidad de escritura para el span
             }
         };
 
@@ -35,14 +35,14 @@ export default function Start() {
     return (
         <section id="home" className="h-screen bg-gray-100 px-5 md:px-0 text-center content-center grid gap-6"
          style={{
-    backgroundImage: `
-      repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 21px),
-      repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 21px),
-      repeating-linear-gradient(45deg, white 0px, white 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px),
-      repeating-linear-gradient(-45deg, white 0px, white 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px)
-    `,
-    backgroundSize: '21px 21px'
-  }}>
+            backgroundImage: `
+            repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 21px),
+            repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 21px),
+            repeating-linear-gradient(45deg, white 0px, white 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px),
+            repeating-linear-gradient(-45deg, white 0px, white 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px)
+            `,
+            backgroundSize: '21px 21px'
+        }}>
             <h1 className="text-6xl">{h1Text}</h1>
             <span style={{ whiteSpace: "pre-line" }}>{spanText}</span>
             <div className="flex justify-center gap-6">
