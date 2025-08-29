@@ -4,7 +4,7 @@ export const CAREER_DATA: CareerData[] = [
     {
         company: "Foundaxis",
         title: "Junior Software Developer",
-        description: "I was responsible for modifying key user web interfaces using Django, Svelte, Tailwind, and PostgreSQL ",
+        description: "As a junior software developer, I was responsible for modifying key user interfaces for the business using Svelte and Tailwind, optimizing user experience and enhancing platform usability. For design and prototyping of the interfaces, I utilized Figma, ensuring a seamless transition from design to implementation.",
         date: "Dic 2024 - Mar 2025",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },

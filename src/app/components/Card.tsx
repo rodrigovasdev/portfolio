@@ -3,15 +3,19 @@ import { CareerData } from "../types/types"
 
 export default function Card (data: CareerData) {
 
+    const midPoint = Math.floor(data.company.length / 2);
+    const splitCompany = [data.company.slice(0, midPoint), data.company.slice(midPoint)];
     return (
         
-        <div className="grid gap-2 border-1 border-purple-300 cursor-pointer bg-gray-100 hover:bg-gray-50 hover:border-2 hover:border-purple-400 rounded-xl p-5">
-            <h1 className="text-xl border-b-1 border-purple-300/75 h-15"><b>{data.company}</b></h1>
-            <div className="flex justify-around">
-                <h2><b>{data.title}</b></h2>
+        <div className="h-screen flex flex-col gap-5 p-5">
+            <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-gray-900 ">{splitCompany[0]}<span className="text-purple-500">{splitCompany[1]}</span></h2>
+            <div className="w-1/3 flex justify-between border-b-1 border-purple-300/75">
+                <h1 className="text-xl"><b>{data.title}</b> </h1>
                 <span className="text-purple-500"> <i>{data.date}</i> </span>
             </div>
-            <span>{data.description}</span>
+            <div className="w-1/3">
+                <span className="w-1/3">{data.description}</span>
+            </div>
         </div>
     )
 }
