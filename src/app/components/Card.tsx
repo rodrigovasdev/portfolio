@@ -22,10 +22,7 @@ export default function Card (props: CareerData & { index: number }) {
         },
         {
             original: "/career/foundaxis/4.png",
-        },
-                {
-            original: "/career/foundaxis/5.png",
-        },
+        }
         ]
     const { index, ...data } = props;
 
@@ -35,25 +32,25 @@ export default function Card (props: CareerData & { index: number }) {
     if (index % 2 !== 0) isOdd = true;
     console.log(index)
     console.log(isOdd)
-    const mainDivClasses = `h-screen flex ${isOdd ? "flex-row-reverse bg-gray-100" : "bg-gray-200"} justify-between p-5 md:p-20 py-18 border-b-1 border-gray-300 rounded-b-4xl`;
-    const buttonClasses = `w-1/3 hidden md:flex cursor-pointer text-white font-bold py-2 px-5 rounded-full ${isOdd ? "bg-blue-500 hover:bg-blue-700" : "bg-purple-500 hover:bg-purple-700 "}`;
+    const mainDivClasses = `h-screen flex ${isOdd ? "flex-row-reverse bg-gray-100" : "bg-gray-200"} justify-between p-5 md:p-20 py-18 border-b-1 border-gray-300`;
+    const buttonClasses = `w-full justify-center hidden md:flex cursor-pointer text-white py-2 px-5 rounded-full ${isOdd ? "bg-blue-500 hover:bg-blue-700" : "bg-purple-500 hover:bg-purple-700 "}`;
     const companyTitleColor = isOdd ? "text-blue-500" : "text-purple-500";
     const jobTitleClasses = isOdd ? "text-blue-500 my-auto" : "text-purple-500 my-auto";
     const jobDivClasses = isOdd ? "flex justify-between border-b-1 border-blue-400/75" : "flex justify-between border-b-1 border-purple-400/75";
-    const galleryDivClasses = isOdd ? "w-1/2 h-3/4 my-auto border-1 border-blue-500" : "w-1/2 h-3/4 my-auto border-1 border-purple-500";
+    const galleryDivClasses = isOdd ? "w-1/2 p-2 bg-blue-500 rounded-xl" : "w-1/2 p-2 bg-purple-500/10 rounded-xl";
     return (
 
         <div className={mainDivClasses}>
 
-            <div className="my-auto w-4/10 h-3/4">
+            <div className="w-4/10 ">
                 <h1 className="mb-3 text-5xl tracking-tight font-extrabold text-gray-900 "><b>{splitCompany[0].toUpperCase()}</b><span className={companyTitleColor}>{splitCompany[1].toUpperCase()}</span></h1>
                 <div className={jobDivClasses}>
-                    <h1 className="text-lg">{data.title.toUpperCase()}</h1>
+                    <h1 className="text-lg font-semibold">{data.title.toUpperCase()}</h1>
                     <span className={jobTitleClasses}> <i>{data.date}</i> </span>
                 </div>
                 <div className="mt-10 flex flex-col gap-8">
                     <span className="text-justify">{data.description}</span>
-                    <SkillsContainer />
+                    <SkillsContainer key={index} skills={data.skills} isOdd={isOdd} />
                     <a
                     href="/cv.pdf"
                     className={buttonClasses}
@@ -66,6 +63,8 @@ export default function Card (props: CareerData & { index: number }) {
             <div className={galleryDivClasses}>
                <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showBullets={true} showIndex={true} showFullscreenButton={false}/>
             </div>
+
+            
         </div>
     )
 }
