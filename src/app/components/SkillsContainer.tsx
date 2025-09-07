@@ -1,6 +1,5 @@
 
 export default function SkillsContainer ({ skills, isOdd }: { skills: string[]; isOdd: boolean }) {
-    console.log("SkillsContainer isOdd:", isOdd);
 
     const liClass = `text-lg text-center mx-auto ${isOdd ? "text-blue-500" : "text-purple-500"}`;
     return (
