@@ -66,7 +66,7 @@ export default function Header() {
             </li>
             <li className="mx-auto">
               <a
-                href="#career-1"
+                href="#career-0"
                 className={`block py-2 px-3 ${
                   activeSection.includes("career")
                    ? "text-purple-700 underline underline-offset-8 transition-all duration-100"

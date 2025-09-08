@@ -6,7 +6,7 @@ export default function Start() {
     const [spanText, setSpanText] = useState(``);
 
     useEffect(() => {
-        const h1Content = `              Hi, I'm Rodrigo`;
+        const h1Content = `     Hi, I'm Rodrigo`;
         const spanContent = `   Software Engineer at Pontificia Universidad Católica de Valparaíso  \nand passionate full-stack developer crafting innovative digital solutions.`;
         let h1Index = 0;
         let spanIndex = 0; 
