@@ -24,7 +24,7 @@ export const CAREER_DATA: CareerData[] = [
         description: "As a junior software developer, I was responsible for modifying key user interfaces for the business using Svelte and Tailwind, optimizing user experience and enhancing platform usability. For design and prototyping of the interfaces, I utilized Figma, ensuring a seamless transition from design to implementation. Additionally, I implemented new endpoints in the API using Django Rest Framework, ensuring efficient and secure integration with the frontend, which contributed to the system's scalability and performance.",
         date: "Dic 2024 - Mar 2025",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        skills: ["SaaS", "Svelte", "Tailwind CSS", "Figma", "UI/UX Design", "Full Stack"],
+        skills: ["SaaS", "Svelte", "Tailwind CSS", "Figma", "UI/UX Design"],
         images: [
         {
             original: "/career/foundaxis/1.webp",
