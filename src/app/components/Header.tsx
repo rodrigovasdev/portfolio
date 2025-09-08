@@ -40,7 +40,7 @@ export default function Header() {
         <a
                     href="/cv.pdf"
                     download="Rodrigo_Vasquez_CV.pdf"
-                    className="bg-purple-500 hidden md:flex cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full"
+                    className="bg-purple-500 hidden md:flex cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                 >
                     Download Resume
                 </a>

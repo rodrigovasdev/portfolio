@@ -31,7 +31,7 @@ export default function Card (props: CareerData & { index: number }) {
     let isOdd = true;
     if (index % 2 !== 0) isOdd = false;
     const mainDivClasses = `h-screen flex flex-col md:flex-row ${isOdd ? "md:flex-row-reverse bg-gray-100" : "bg-gray-200"} justify-between p-5 md:p-20 py-18 border-b-1 border-gray-300`;
-    const buttonClasses = `w-full justify-center font-bold flex cursor-pointer text-white py-2 px-5 rounded-full ${isOdd ? "bg-blue-500 hover:bg-blue-700" : "bg-purple-500 hover:bg-purple-700 "}`;
+    const buttonClasses = `w-full justify-center font-bold flex cursor-pointer text-white py-2 px-5 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg ${isOdd ? "bg-blue-500 hover:bg-blue-700" : "bg-purple-500 hover:bg-purple-700 "}`;;
     const companyTitleColor = isOdd ? "text-blue-500" : "text-purple-500";
     const jobTitleClasses = isOdd ? "text-blue-500 my-auto" : "text-purple-500 my-auto";
     const jobDivClasses = isOdd ? "flex justify-between border-b-1 border-blue-400/75" : "flex justify-between border-b-1 border-purple-400/75";
