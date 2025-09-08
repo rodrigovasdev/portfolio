@@ -7,7 +7,7 @@ export const CAREER_DATA: CareerData[] = [
         description: "I specialize in the development and maintenance of web platforms, implementing full-stack solutions tailored to client requirements. As an engineer, I deliver optimal, efficient, and scalable solutions aligned with project needs while adhering to coding conventions. My work involves building and restructuring software flows to ensure excellent UI/UX, gathering and analyzing requirements, actively participating in technical meetings with collaborators, and maintaining both the platform and its server.",
         date: "Jun 2025 - Sept 2025",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        skills: ["Nextjs", "Nodejs", "Express", "Sequelize", "Digital Ocean"],
+        skills: ["ERP", "Nextjs", "Nodejs", "Express", "Sequelize", "Digital Ocean"],
         images: [
         {
             original: "/career/foundaxis/2.png",
