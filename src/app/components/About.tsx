@@ -10,8 +10,8 @@ export default function About () {
                         <h1 className="text-7xl tracking-tight font-extrabold text-purple-500"><b>me</b></h1>
                     </div>
                     <span>Web developer and Software engineer, constantly evolving and currently seeking to enhance and continue advancing my professional career as a developer. Within web development, I work with technologies like Django, React, Next.js, Tailwind, Node.js, among others that you can see on my profile.</span>
-                    <span>I recently worked at <b>FOUNDAXIS</b> as a junior software developer, where my main tasks were to integrate new software components using Svelte, Tailwind, and Figma. I also had the opportunity to create new endpoints and make changes to the backend models using Django and Python.</span>
-                    <span>I am passionate about software development and algorithm building. I have always enjoyed puzzles in general and specifically have a great interest in Rubik’s cubes. I am also a fan of the arts, such as music and photography, with the latter being what I enjoy the most.</span>
+                    <span>I am eager to join a development team to deepen my knowledge in software development. I am seeking opportunities that allow me to continue learning while contributing my skills as a full-stack developer. I am proactive and highly motivated, with a strong passion for learning new technologies and continuously growing professionally.</span>
+                    <span>In my work, I focus on understanding requirements and aligning solutions with business needs. I am also characterized by strong communication and critical thinking skills, which I apply when exploring solutions collaboratively within a team.</span>
                 </div>
             </div>
             <div className="basis-2/5">

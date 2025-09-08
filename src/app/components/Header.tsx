@@ -10,6 +10,7 @@ export default function Header() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            console.log(entry.target.id);
             setActiveSection(entry.target.id);
           }
         });
@@ -67,7 +68,7 @@ export default function Header() {
               <a
                 href="#career"
                 className={`block py-2 px-3 ${
-                  activeSection === "career"
+                  activeSection.includes("career")
                    ? "text-purple-700 underline underline-offset-8 transition-all duration-100"
       : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}

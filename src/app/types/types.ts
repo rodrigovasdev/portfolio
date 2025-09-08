@@ -8,4 +8,5 @@ export interface CareerData{
     images?: {
         original: string;
     }[] | undefined;
+    website?: string;
 }

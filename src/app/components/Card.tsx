@@ -28,19 +28,19 @@ export default function Card (props: CareerData & { index: number }) {
 
     const midPoint = Math.floor(data.company.length / 2);
     const splitCompany = [data.company.slice(0, midPoint), data.company.slice(midPoint)];
-    let isOdd = false;
-    if (index % 2 !== 0) isOdd = true;
-    const mainDivClasses = `h-screen flex ${isOdd ? "flex-row-reverse bg-gray-100" : "bg-gray-200"} justify-between p-5 md:p-20 py-18 border-b-1 border-gray-300`;
-    const buttonClasses = `w-full justify-center hidden md:flex cursor-pointer text-white py-2 px-5 rounded-full ${isOdd ? "bg-blue-500 hover:bg-blue-700" : "bg-purple-500 hover:bg-purple-700 "}`;
+    let isOdd = true;
+    if (index % 2 !== 0) isOdd = false;
+    const mainDivClasses = `h-screen flex flex-col md:flex-row ${isOdd ? "md:flex-row-reverse bg-gray-100" : "bg-gray-200"} justify-between p-5 md:p-20 py-18 border-b-1 border-gray-300`;
+    const buttonClasses = `w-full justify-center font-bold flex cursor-pointer text-white py-2 px-5 rounded-full ${isOdd ? "bg-blue-500 hover:bg-blue-700" : "bg-purple-500 hover:bg-purple-700 "}`;
     const companyTitleColor = isOdd ? "text-blue-500" : "text-purple-500";
     const jobTitleClasses = isOdd ? "text-blue-500 my-auto" : "text-purple-500 my-auto";
     const jobDivClasses = isOdd ? "flex justify-between border-b-1 border-blue-400/75" : "flex justify-between border-b-1 border-purple-400/75";
-    const galleryDivClasses = isOdd ? "w-1/2 h-auto p-2 rounded-xl" : "w-1/2 h-auto p-2 rounded-xl";
+    const galleryDivClasses = isOdd ? "w-full md:w-1/2 h-auto p-2 rounded-xl" : "w-full md:w-1/2 h-auto p-2 rounded-xl";
     return (
 
-        <div className={mainDivClasses}>
+        <section id={`career-${index}`} className={mainDivClasses}>
 
-            <div className="w-4/10 ">
+            <div className="w-full md:w-4/10 ">
                 <h1 className="mb-3 text-5xl tracking-tight font-extrabold text-gray-900 "><b>{splitCompany[0].toUpperCase()}</b><span className={companyTitleColor}>{splitCompany[1].toUpperCase()}</span></h1>
                 <div className={jobDivClasses}>
                     <h1 className="text-lg font-semibold">{data.title.toUpperCase()}</h1>
@@ -50,8 +50,9 @@ export default function Card (props: CareerData & { index: number }) {
                     <span className="text-justify">{data.description}</span>
                     <SkillsContainer key={index} skills={data.skills} isOdd={isOdd} />
                     <a
-                    href="/cv.pdf"
+                    href={data.website}
                     className={buttonClasses}
+                    target="_blank"
                     >
                         Go to website
                     </a>
@@ -79,6 +80,6 @@ export default function Card (props: CareerData & { index: number }) {
             </div>
 
             
-        </div>
+        </section>
     )
 }
