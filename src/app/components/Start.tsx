@@ -12,10 +12,9 @@ export default function Start({ isLoadingComplete = false }: StartProps) {
 
     useEffect(() => {
         if (isLoadingComplete) {
-            // Pequeño retraso para que se vea bien la transición después del loading
             const timer = setTimeout(() => {
                 setShowAnimations(true);
-            }, 0);
+            });
             return () => clearTimeout(timer);
         }
     }, [isLoadingComplete]);
