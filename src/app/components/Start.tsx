@@ -15,7 +15,7 @@ export default function Start() {
             if (h1Index < h1Content.length - 1) {
                 setH1Text((prev) => prev + h1Content[h1Index]);
                 h1Index++;
-                setTimeout(typeH1, 150); // Velocidad de escritura para el h1
+                setTimeout(typeH1, 120); // Velocidad de escritura para el h1
             } else {
                 typeSpan(); // Inicia la escritura del span después de terminar el h1
             }
@@ -43,9 +43,8 @@ export default function Start() {
             `,
             backgroundSize: '21px 21px'
         }}>
-            <h1 className="text-6xl">Hi, I'm Rodrigo</h1>
-            <span style={{ whiteSpace: "pre-line" }}>Software Engineer at Pontificia Universidad Católica de Valparaíso 
-            <br />and passionate full-stack developer crafting innovative digital solutions.</span>
+            <h1 className="text-6xl">{h1Text}</h1>
+            <span style={{ whiteSpace: "pre-line" }}>{spanText}</span>
             <div className="flex justify-center gap-6">
                 <a
                     href="#career-0"
