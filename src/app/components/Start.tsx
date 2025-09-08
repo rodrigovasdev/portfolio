@@ -21,15 +21,15 @@ export default function Start({ isLoadingComplete = false }: StartProps) {
 
     return (
         <section id="home" className="h-screen bg-gray-100 px-5 md:px-0 text-center content-center grid gap-6"
-         style={{
-            backgroundImage: `
-            repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 21px),
-            repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 21px),
-            repeating-linear-gradient(45deg, white 0px, white 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px),
-            repeating-linear-gradient(-45deg, white 0px, white 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px)
-            `,
-            backgroundSize: '21px 21px'
-        }}>             
+            style={{
+                backgroundImage: `
+                repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 21px),
+                repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 21px),
+                repeating-linear-gradient(45deg, white 0px, white 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px),
+                repeating-linear-gradient(-45deg, white 0px, white 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px)
+                `,
+                backgroundSize: '21px 21px'
+            }}>             
             <h1 className="text-6xl">Hi, I'm Rodrigo</h1>
             <span style={{ whiteSpace: "pre-line" }}>Software Engineer at Pontificia Universidad Católica de Valparaíso  <br/>and passionate full-stack developer crafting innovative digital solutions.</span>
             <div className="flex justify-center gap-6">
