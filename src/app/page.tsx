@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <>
       {isLoading && <Loading onLoadingComplete={handleLoadingComplete} />}
-      <div className={`grid grid-cols-1 transition-opacity duration-400 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
-        <Start/>
+      <div className={`grid grid-cols-1 transition-opacity duration-500 ${isLoading ? 'opacity-90' : 'opacity-100'}`}>
+        <Start isLoadingComplete={!isLoading}/>
         <Career/>
         <About/>
         <Contact/>
