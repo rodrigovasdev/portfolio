@@ -7,20 +7,14 @@ export const CAREER_DATA: CareerData[] = [
         description: "I specialize in the development and maintenance of web platforms, implementing full-stack solutions tailored to client requirements. As an engineer, I deliver optimal, efficient, and scalable solutions aligned with project needs while adhering to coding conventions. My work involves building and restructuring software flows to ensure excellent UI/UX, gathering and analyzing requirements, actively participating in technical meetings with collaborators, and maintaining both the platform and its server.",
         date: "Jun 2025 - Sept 2025",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        skills: ["ERP", "Nextjs", "Nodejs", "Express", "Sequelize", "Digital Ocean"],
+        skills: ["ERP", "Nextjs", "Nodejs", "Express", "Sequelize", "Digital Ocean", "Full-Stack"],
         images: [
         {
-            original: "/career/foundaxis/2.png",
+            original: "/career/conprojecto/1.png",
         },
         {
-            original: "/career/foundaxis/3.png",
-        },
-        {
-            original: "/career/foundaxis/4.png",
-        },
-                {
-            original: "/career/foundaxis/5.png",
-        },
+            original: "/career/conprojecto/2.png",
+        }
         ],
         website: "https://conprojecto.cl/"
     },
@@ -30,20 +24,17 @@ export const CAREER_DATA: CareerData[] = [
         description: "As a junior software developer, I was responsible for modifying key user interfaces for the business using Svelte and Tailwind, optimizing user experience and enhancing platform usability. For design and prototyping of the interfaces, I utilized Figma, ensuring a seamless transition from design to implementation. Additionally, I implemented new endpoints in the API using Django Rest Framework, ensuring efficient and secure integration with the frontend, which contributed to the system's scalability and performance.",
         date: "Dic 2024 - Mar 2025",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        skills: ["Svelte", "Tailwind CSS", "Figma", "UI/UX Design", "Full Stack Development"],
+        skills: ["SaaS", "Svelte", "Tailwind CSS", "Figma", "UI/UX Design", "Full Stack"],
         images: [
+        {
+            original: "/career/foundaxis/1.png",
+        },
         {
             original: "/career/foundaxis/2.png",
         },
         {
             original: "/career/foundaxis/3.png",
-        },
-        {
-            original: "/career/foundaxis/4.png",
-        },
-                {
-            original: "/career/foundaxis/5.png",
-        },
+        }
         ],
         website: "https://foundaxis.com/"
     },
@@ -56,13 +47,10 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["Python", "Django", "JavaScript", "CSS", "HTML", "Teaching"],
         images: [
         {
-            original: "../../public/career/foundaxis/2.png",
+            original: "/career/edutecno/1.png",
         },
         {
-            original: "https://picsum.photos/id/1015/1000/600/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/1000/600/",
+            original: "/career/edutecno/2.png",
         },
         ],
         website: "https://edutecno.cl/"
@@ -76,13 +64,13 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["Django", "React", "Next.js", "Tailwind CSS", "AWS"],
         images: [
         {
-            original: "../../public/career/foundaxis/2.png",
+            original: "/career/photosgram/1.png",
         },
         {
-            original: "https://picsum.photos/id/1015/1000/600/",
+            original: "/career/photosgram/2.png",
         },
         {
-            original: "https://picsum.photos/id/1019/1000/600/",
+            original: "/career/photosgram/3.png",
         },
         ],
         website: "https://photosapp.vercel.app/"
@@ -96,13 +84,10 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["COBOL", "Financial Software", "Legacy Systems", "Software Maintenance"],
         images: [
         {
-            original: "../../public/career/foundaxis/2.png",
+            original: "/career/ibm/1.png",
         },
         {
-            original: "https://picsum.photos/id/1015/1000/600/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/1000/600/",
+            original: "/career/ibm/2.png",
         },
         ],
         website: "https://www.ibm.com/mx-es"

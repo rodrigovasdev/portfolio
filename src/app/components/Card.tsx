@@ -15,13 +15,13 @@ export default function Card (props: CareerData & { index: number }) {
 
     const images = [
         {
+            original: "/career/foundaxis/1.png",
+        },
+        {
             original: "/career/foundaxis/2.png",
         },
         {
             original: "/career/foundaxis/3.png",
-        },
-        {
-            original: "/career/foundaxis/4.png",
         }
         ]
     const { index, ...data } = props;
@@ -63,7 +63,7 @@ export default function Card (props: CareerData & { index: number }) {
                     className="w-full h-auto flex flex-col gap-4"
                 >
                    <ImageGallery 
-                       items={images} 
+                       items={data.images ? data.images : images} 
                        showThumbnails={false} 
                        showPlayButton={false} 
                        showBullets={true} 
