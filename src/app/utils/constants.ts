@@ -101,13 +101,7 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["Algorithms", "Data Structures", "Software Engineering", "Team Collaboration"],
         images: [
         {
-            original: "../../public/career/foundaxis/2.png",
-        },
-        {
-            original: "https://picsum.photos/id/1015/1000/600/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/1000/600/",
+            original: "/career/pucv/1.png",
         },
         ],
         website: "https://www.pucv.cl/"
