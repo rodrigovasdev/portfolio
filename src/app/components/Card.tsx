@@ -48,7 +48,6 @@ export default function Card (props: CareerData & { index: number }) {
                 </div>
                 <div className="mt-10 flex flex-col gap-8">
                     <span className="text-justify">{data.description}</span>
-                    <SkillsContainer key={index} skills={data.skills} isOdd={isOdd} />
                     <a
                     href={data.website}
                     className={buttonClasses}
@@ -61,12 +60,7 @@ export default function Card (props: CareerData & { index: number }) {
 
             <div className={galleryDivClasses}>
                 <div 
-                    className="w-full h-auto"
-                    style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center'
-                    }}
+                    className="w-full h-auto flex flex-col gap-4"
                 >
                    <ImageGallery 
                        items={images} 
@@ -76,6 +70,7 @@ export default function Card (props: CareerData & { index: number }) {
                        showIndex={true} 
                        showFullscreenButton={false}
                    />
+                    <SkillsContainer key={index} skills={data.skills} isOdd={isOdd} />
                 </div>
             </div>
 
