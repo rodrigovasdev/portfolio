@@ -48,7 +48,7 @@ export default function Start() {
             <br />and passionate full-stack developer crafting innovative digital solutions.</span>
             <div className="flex justify-center gap-6">
                 <a
-                    href="#career"
+                    href="#career-1"
                     className="bg-purple-500 cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full"
                 >
                     View My Career
