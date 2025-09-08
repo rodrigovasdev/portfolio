@@ -48,14 +48,14 @@ export default function Start() {
             <br />and passionate full-stack developer crafting innovative digital solutions.</span>
             <div className="flex justify-center gap-6">
                 <a
-                    href="#career-1"
-                    className="bg-purple-500 cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full"
+                    href="#career-0"
+                    className="bg-purple-500 cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                 >
                     View My Career
                 </a>
                 <a
                     href="https://www.linkedin.com/in/rodrigo-v%C3%A1squez-34425924b/"
-                    className="bg-blue-500 cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                    className="bg-blue-500 cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                 >
                     LinkedIn
                 </a>
