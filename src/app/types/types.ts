@@ -4,4 +4,9 @@ export interface CareerData{
     description: string;
     date: string;
     longDescription: string;
+    skills: string[];
+    images?: {
+        original: string;
+    }[] | undefined;
+    website?: string;
 }
