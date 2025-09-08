@@ -61,9 +61,8 @@ export default function Loading({ onLoadingComplete }: LoadingProps) {
       <div className="text-center animate-fadeInUp">
         {/* Logo o nombre con efecto shimmer */}
         <div className="mb-8">
-          <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent mb-2 relative">
+          <h1 className="text-4xl md:text-6xl font-bold text-black mb-2 relative">
             Rodrigo Vásquez
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-30 shimmer"></div>
           </h1>
           <p className="text-gray-600 text-lg font-medium">Software Engineer</p>
         </div>
@@ -71,10 +70,9 @@ export default function Loading({ onLoadingComplete }: LoadingProps) {
         {/* Barra de progreso mejorada */}
         <div className="w-80 h-3 bg-gray-200 rounded-full overflow-hidden mx-auto mb-6 shadow-inner">
           <div 
-            className="h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 transition-all duration-300 ease-out rounded-full relative"
+            className="h-full bg-purple-500 transition-all duration-300 ease-out rounded-full relative"
             style={{ width: `${Math.min(progress, 100)}%` }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-30 shimmer"></div>
           </div>
         </div>
 
@@ -90,9 +88,9 @@ export default function Loading({ onLoadingComplete }: LoadingProps) {
 
         {/* Animación de puntos mejorada */}
         <div className="flex justify-center space-x-2">
-          <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-bounce shadow-lg" style={{ animationDelay: '0ms' }}></div>
-          <div className="w-3 h-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full animate-bounce shadow-lg" style={{ animationDelay: '150ms' }}></div>
-          <div className="w-3 h-3 bg-gradient-to-r from-pink-500 to-red-500 rounded-full animate-bounce shadow-lg" style={{ animationDelay: '300ms' }}></div>
+          <div className="w-3 h-3 bg-purple-500 rounded-full animate-bounce shadow-lg" style={{ animationDelay: '0ms' }}></div>
+          <div className="w-3 h-3 bg-purple-500 rounded-full animate-bounce shadow-lg" style={{ animationDelay: '150ms' }}></div>
+          <div className="w-3 h-3 bg-purple-500 rounded-full animate-bounce shadow-lg" style={{ animationDelay: '300ms' }}></div>
         </div>
       </div>
     </div>
