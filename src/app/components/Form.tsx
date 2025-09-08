@@ -61,7 +61,7 @@ export default function Form() {
                             </div>
                             <button
                                 type="submit"
-                                className="bg-blue-500 cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                                className="bg-blue-500 cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                             >
                                 Send message
                             </button>
