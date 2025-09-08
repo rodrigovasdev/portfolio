@@ -67,7 +67,6 @@ export default function Card (props: CareerData & { index: number }) {
                        showThumbnails={false} 
                        showPlayButton={false} 
                        showBullets={true} 
-                       showIndex={true} 
                        showFullscreenButton={false}
                    />
                     <SkillsContainer key={index} skills={data.skills} isOdd={isOdd} />
