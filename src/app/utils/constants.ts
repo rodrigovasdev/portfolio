@@ -10,10 +10,10 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["ERP", "Nextjs", "Nodejs", "Express", "Sequelize", "Digital Ocean"],
         images: [
         {
-            original: "/career/conprojecto/1.png",
+            original: "/career/conprojecto/1.webp",
         },
         {
-            original: "/career/conprojecto/2.png",
+            original: "/career/conprojecto/2.webp",
         }
         ],
         website: "https://conprojecto.cl/"
@@ -27,13 +27,13 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["SaaS", "Svelte", "Tailwind CSS", "Figma", "UI/UX Design", "Full Stack"],
         images: [
         {
-            original: "/career/foundaxis/1.png",
+            original: "/career/foundaxis/1.webp",
         },
         {
-            original: "/career/foundaxis/2.png",
+            original: "/career/foundaxis/2.webp",
         },
         {
-            original: "/career/foundaxis/3.png",
+            original: "/career/foundaxis/3.webp",
         }
         ],
         website: "https://foundaxis.com/"
@@ -47,10 +47,10 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["Python", "Django", "JavaScript", "CSS", "HTML", "Teaching"],
         images: [
         {
-            original: "/career/edutecno/1.png",
+            original: "/career/edutecno/1.webp",
         },
         {
-            original: "/career/edutecno/2.png",
+            original: "/career/edutecno/2.webp",
         },
         ],
         website: "https://edutecno.cl/"
@@ -64,13 +64,13 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["Django", "React", "Next.js", "Tailwind CSS", "AWS"],
         images: [
         {
-            original: "/career/photosgram/1.png",
+            original: "/career/photosgram/1.webp",
         },
         {
-            original: "/career/photosgram/2.png",
+            original: "/career/photosgram/2.webp",
         },
         {
-            original: "/career/photosgram/3.png",
+            original: "/career/photosgram/3.webp",
         },
         ],
         website: "https://photosapp.vercel.app/"
@@ -84,10 +84,10 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["COBOL", "Financial Software", "Legacy Systems", "Software Maintenance"],
         images: [
         {
-            original: "/career/ibm/1.png",
+            original: "/career/ibm/1.webp",
         },
         {
-            original: "/career/ibm/2.png",
+            original: "/career/ibm/2.webp",
         },
         ],
         website: "https://www.ibm.com/mx-es"
@@ -101,7 +101,7 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["Algorithms", "Data Structures", "Software Engineering", "Team Collaboration"],
         images: [
         {
-            original: "/career/pucv/1.png",
+            original: "/career/pucv/1.webp",
         },
         ],
         website: "https://www.pucv.cl/"
