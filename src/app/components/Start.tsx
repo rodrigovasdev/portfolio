@@ -6,7 +6,7 @@ export default function Start() {
     const [spanText, setSpanText] = useState(``);
 
     useEffect(() => {
-        const h1Content = `     Hi, I'm Rodrigo`;
+        const h1Content = `              Hi, I'm Rodrigo`;
         const spanContent = `   Software Engineer at Pontificia Universidad Católica de Valparaíso  \nand passionate full-stack developer crafting innovative digital solutions.`;
         let h1Index = 0;
         let spanIndex = 0; 
@@ -15,7 +15,7 @@ export default function Start() {
             if (h1Index < h1Content.length - 1) {
                 setH1Text((prev) => prev + h1Content[h1Index]);
                 h1Index++;
-                setTimeout(typeH1, 120); // Velocidad de escritura para el h1
+                setTimeout(typeH1, 105); // Velocidad de escritura para el h1
             } else {
                 typeSpan(); // Inicia la escritura del span después de terminar el h1
             }
