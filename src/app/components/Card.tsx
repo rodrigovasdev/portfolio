@@ -41,7 +41,7 @@ export default function Card (props: CareerData & { index: number }) {
         <section id={`career-${index}`} className={mainDivClasses}>
 
             <div className="w-full md:w-4/10 ">
-                <h1 className="mb-3 text-5xl tracking-tight font-extrabold text-gray-900 "><b>{splitCompany[0].toUpperCase()}</b><span className={companyTitleColor}>{splitCompany[1].toUpperCase()}</span></h1>
+                <h1 className="mb-3 text-3xl sm:text-5xl tracking-tight font-extrabold text-gray-900 "><b>{splitCompany[0].toUpperCase()}</b><span className={companyTitleColor}>{splitCompany[1].toUpperCase()}</span></h1>
                 <div className={jobDivClasses}>
                     <h1 className="text-lg font-semibold">{data.title.toUpperCase()}</h1>
                     <span className={jobTitleClasses}> <i>{data.date}</i> </span>
