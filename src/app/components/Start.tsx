@@ -30,7 +30,7 @@ export default function Start({ isLoadingComplete = false }: StartProps) {
                 `,
                 backgroundSize: '21px 21px'
             }}>             
-            <h1 className="text-6xl">Hi, I'm Rodrigo</h1>
+            <h1 className="text-6xl font-semibold   ">Hi, I'm Rodrigo</h1>
             <span style={{ whiteSpace: "pre-line" }}>Software Engineer at Pontificia Universidad Católica de Valparaíso  <br/>and passionate full-stack developer crafting innovative digital solutions.</span>
             <div className="flex justify-center gap-6">
                 <a
