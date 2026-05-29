@@ -3,9 +3,9 @@ import { CareerData } from "../types/types"
 export const CAREER_DATA: CareerData[] = [
         {
         company: "Conprojecto",
-        title: "Full Stack Developer",
-        description: "I specialize in the development and maintenance of web platforms, implementing full-stack solutions tailored to client requirements. As an engineer, I deliver optimal, efficient, and scalable solutions aligned with project needs while adhering to coding conventions. My work involves building and restructuring software flows to ensure excellent UI/UX, gathering and analyzing requirements, actively participating in technical meetings with collaborators, and maintaining both the platform and its server.",
-        date: "Jun 2025 - Sept 2025",
+    title: "Desarrollador Full Stack",
+    description: "Me especializo en el desarrollo y mantenimiento de plataformas web, implementando soluciones full-stack adaptadas a los requerimientos del cliente. Como ingeniero, entrego soluciones óptimas, eficientes y escalables, alineadas con las necesidades del proyecto y respetando las convenciones de código. Mi trabajo incluye construir y reestructurar flujos de software para garantizar una excelente UI/UX, recopilar y analizar requisitos, participar activamente en reuniones técnicas con colaboradores y mantener tanto la plataforma como su servidor.",
+    date: "Jun 2025 - Sep 2025",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         skills: ["ERP", "Nextjs", "Nodejs", "Express", "Sequelize", "Digital Ocean"],
         images: [
@@ -20,8 +20,8 @@ export const CAREER_DATA: CareerData[] = [
     },
     {
         company: "Foundaxis",
-        title: "Junior Software Developer",
-        description: "As a junior software developer, I was responsible for modifying key user interfaces for the business using Svelte and Tailwind, optimizing user experience and enhancing platform usability. For design and prototyping of the interfaces, I utilized Figma, ensuring a seamless transition from design to implementation. Additionally, I implemented new endpoints in the API using Django Rest Framework, ensuring efficient and secure integration with the frontend, which contributed to the system's scalability and performance.",
+        title: "Desarrollador de Software Junior",
+        description: "Como desarrollador de software junior, fui responsable de modificar interfaces de usuario clave para el negocio utilizando Svelte y Tailwind, optimizando la experiencia de usuario y mejorando la usabilidad de la plataforma. Para el diseño y prototipado de las interfaces, utilicé Figma, asegurando una transición fluida del diseño a la implementación. Además, implementé nuevos endpoints en la API usando Django Rest Framework, garantizando una integración eficiente y segura con el frontend, lo que contribuyó a la escalabilidad y el rendimiento del sistema.",
         date: "Dic 2024 - Mar 2025",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         skills: ["SaaS", "Svelte", "Tailwind", "Figma", "UI/UX"],
@@ -40,11 +40,11 @@ export const CAREER_DATA: CareerData[] = [
     },
     {
         company: "Edutecno",
-        title: "Teacher",
-        description: "I taught full-stack web development, covering key technologies such as Python, Django, JavaScript, CSS, and HTML. I was responsible for guiding students in building complete web applications, from the frontend to the backend. This role has allowed me to strengthen my communication skills, especially when explaining and demonstrating software or scripts, ensuring that technical concepts are accessible and understandable for all students. I also highlight that learning and adapting to new technologies has helped me strengthen my knowledge.",
-        date: "Jul 2024 - Jan 2025",
+        title: "Profesor",
+        description: "Enseñé desarrollo web full-stack, abarcando tecnologías clave como Python, Django, JavaScript, CSS y HTML. Fui responsable de guiar a los estudiantes en la construcción de aplicaciones web completas, desde el frontend hasta el backend. Este rol me permitió fortalecer mis habilidades de comunicación, especialmente al explicar y demostrar software o scripts, asegurando que los conceptos técnicos sean accesibles y comprensibles para todos los estudiantes. También destaco que aprender y adaptarme a nuevas tecnologías me ha ayudado a reforzar mis conocimientos.",
+        date: "Jul 2024 - Ene 2025",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        skills: ["Python", "Django", "CSS", "HTML", "Teaching"],
+        skills: ["Python", "Django", "CSS", "HTML", "Enseñanza"],
         images: [
         {
             original: "/career/edutecno/1.webp",
@@ -56,32 +56,32 @@ export const CAREER_DATA: CareerData[] = [
         website: "https://edutecno.cl/"
     },
     {
-        company: "Photosgram",
-        title: "Personal Portfolio",
-        description: "A web app I built for sharing high-resolution photos, developed with Django, React, Next.js, Tailwind CSS, and AWS.",
-        date: "Jan 2025",
+        company: "NIGHTMARKET",
+        title: "Portafolio Personal",
+        description: "Una aplicación web que desarrollé para mi portafolio de aplicaciones, construida con Node.js, React, Next.js, Tailwind CSS y Nest.js.",
+        date: "Mayo 2026",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        skills: ["Django", "React", "Next.js", "Tailwind", "AWS"],
+        skills: ["Nodejs", "React", "Next.js", "Tailwind", "Nestjs"],
         images: [
         {
-            original: "/career/photosgram/1.webp",
+            original: "/career/nightmarket/1.webp",
         },
         {
-            original: "/career/photosgram/2.webp",
+            original: "/career/nightmarket/2.webp",
         },
         {
-            original: "/career/photosgram/3.webp",
+            original: "/career/nightmarket/3.webp",
         },
         ],
-        website: "https://photosapp.vercel.app/"
+        website: "https://night-market-black.vercel.app/"
     },
     {
         company: "IBM",
-        title: "Student Intern",
-        description: "During my internship at IBM, I actively worked on development projects involving COBOL programming for a financial client, gaining valuable skills in designing efficient solutions and effectively maintaining critical software. In my role as a COBOL developer, my main responsibilities included software maintenance through JCL processes and Data Warehouse documentation. For task and activity management, we held daily meetings, and I used JIRA software. From this practical experience, I can highlight the opportunity to work with a well-established development team, where I demonstrated initiative and motivation to learn older and less widely used technologies.",
-        date: "Jan 2023 - Jul 2023",
+        title: "Practicante",
+        description: "Durante mi práctica en IBM, participé activamente en proyectos de desarrollo que involucraban programación COBOL para un cliente del sector financiero, adquiriendo habilidades valiosas en el diseño de soluciones eficientes y el mantenimiento efectivo de software crítico. En mi rol como desarrollador COBOL, mis principales responsabilidades incluyeron el mantenimiento de software mediante procesos JCL y documentación de Data Warehouse. Para la gestión de tareas y actividades, realizábamos reuniones diarias y utilicé JIRA. De esta experiencia práctica, destaco la oportunidad de trabajar con un equipo de desarrollo consolidado, donde demostré iniciativa y motivación para aprender tecnologías más antiguas y menos utilizadas.",
+        date: "Ene 2023 - Jul 2023",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        skills: ["COBOL", "Financial Software", "Legacy Systems", "Software Maintenance"],
+        skills: ["COBOL", "Software Financiero", "Sistemas Legacy", "Mantenimiento de Software"],
         images: [
         {
             original: "/career/ibm/1.webp",
@@ -94,11 +94,11 @@ export const CAREER_DATA: CareerData[] = [
     },
     {
         company: "Pontificia Universidad Católica de Valparaíso",
-        title: "Software Engineer",
-        description: "During the 8 semesters of my studies in Computer Engineering, I had the opportunity to work with various teams and also build a solid foundation in understanding algorithms and the key aspects of software development.",
-        date: "Mar 2020 - Dec 2023",
+        title: "Ingeniero de Software",
+        description: "Durante los 8 semestres de mis estudios de Ingeniería en Informática, tuve la oportunidad de trabajar con diversos equipos y también construir una base sólida en la comprensión de algoritmos y aspectos clave del desarrollo de software.",
+        date: "Mar 2020 - Dic 2023",
         longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        skills: ["Algorithms", "Data Structures", "Software Engineering", "Team Collaboration"],
+        skills: ["Algoritmos", "Estructuras de Datos", "Ingeniería de Software", "Trabajo en Equipo"],
         images: [
         {
             original: "/career/pucv/1.webp",
