@@ -64,13 +64,16 @@ export const CAREER_DATA: CareerData[] = [
         skills: ["Nodejs", "React", "Next.js", "Tailwind", "Nestjs"],
         images: [
         {
-            original: "/career/nightmarket/1.webp",
+            original: "/career/nightmarket/1.png",
         },
         {
-            original: "/career/nightmarket/2.webp",
+            original: "/career/nightmarket/2.png",
         },
         {
-            original: "/career/nightmarket/3.webp",
+            original: "/career/nightmarket/3.png",
+        },
+                {
+            original: "/career/nightmarket/4.png",
         },
         ],
         website: "https://night-market-black.vercel.app/"

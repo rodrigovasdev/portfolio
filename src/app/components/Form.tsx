@@ -19,14 +19,14 @@ export default function Form() {
             const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
             if (!serviceId || !templateId || !publicKey) {
-                throw new Error('EmailJS configuration is missing');
+                throw new Error('Falta la configuración de EmailJS');
             }
 
             await emailjs.sendForm(serviceId, templateId, e.currentTarget, publicKey);
             setIsSubmitted(true);
         } catch (error) {
             console.error('Error sending email:', error);
-            setError('Failed to send message. Please try again.');
+            setError('No se pudo enviar el mensaje. Inténtalo nuevamente.');
         } finally {
             setIsLoading(false);
         }
@@ -38,50 +38,50 @@ export default function Form() {
                 <h2 className="mb-4 text-7xl tracking-tight font-extrabold text-gray-900 text-center ">Work Wi<span className="text-purple-500">th Me</span></h2>
                 {isSubmitted ? (
                     <div className="text-center">
-                        <h3 className="text-2xl font-bold text-gray-900">Thanks!</h3>
-                        <p className="text-gray-500">We will make contact with you soon.</p>
+                        <h3 className="text-2xl font-bold text-gray-900">¡Gracias!</h3>
+                        <p className="text-gray-500">Nos pondremos en contacto contigo pronto.</p>
                     </div>
                 ) : (
                     <>
                         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
-                            Want to collaborate with me? Send me a message and we will get back to you as soon as possible.
+                            ¿Quieres colaborar conmigo? Envíame un mensaje y te responderé lo antes posible.
                         </p>
                         <form onSubmit={handleSubmit} className="space-y-8">
                             <div>
                                 <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">
-                                    Your email
+                                    Tu correo
                                 </label>
                                 <input
                                     type="email"
                                     id="email"
                                     name="from_email"
                                     className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-                                    placeholder="name@mail.com"
+                                    placeholder="nombre@correo.com"
                                     required
                                 />
                             </div>
                             <div>
                                 <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900">
-                                    Subject
+                                    Asunto
                                 </label>
                                 <input
                                     type="text"
                                     id="subject"
                                     name="subject"
                                     className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
-                                    placeholder="Let me know how we can help you"
+                                    placeholder="Cuéntame en qué puedo ayudarte"
                                     required
                                 />
                             </div>
                             <div className="sm:col-span-2">
                                 <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900">
-                                    Your message
+                                    Tu mensaje
                                 </label>
                                 <textarea
                                     id="message"
                                     name="message"
                                     className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
-                                    placeholder="Leave a comment..."
+                                    placeholder="Escribe tu mensaje..."
                                     required
                                 ></textarea>
                             </div>
@@ -97,7 +97,7 @@ export default function Form() {
                                     isLoading ? 'opacity-50 cursor-not-allowed' : ''
                                 }`}
                             >
-                                {isLoading ? 'Sending...' : 'Send message'}
+                                {isLoading ? 'Enviando...' : 'Enviar mensaje'}
                             </button>
                         </form>
                     </>

@@ -9,13 +9,13 @@ interface LoadingProps {
 export default function Loading({ onLoadingComplete }: LoadingProps) {
   const [progress, setProgress] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
-  const [currentText, setCurrentText] = useState('Starting...');
+  const [currentText, setCurrentText] = useState('Iniciando...');
 
   const loadingTexts = [
-    'Starting...',
-    'Loading portfolio...',
-    'Preparing experience...',
-    'Almost ready...'
+    'Iniciando...',
+    'Cargando portafolio...',
+    'Preparando experiencia...',
+    'Casi listo...'
   ];
 
   useEffect(() => {
@@ -64,7 +64,7 @@ export default function Loading({ onLoadingComplete }: LoadingProps) {
           <h1 className="text-4xl md:text-6xl font-bold text-black mb-2 relative">
             Rodrigo Vásquez
           </h1>
-          <p className="text-gray-600 text-lg font-medium">Software Engineer</p>
+          <p className="text-gray-600 text-lg font-medium">Ingeniero de Software</p>
         </div>
 
         {/* Barra de progreso mejorada */}

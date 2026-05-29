@@ -30,7 +30,7 @@ export default function Header() {
           <img
             src="/coding.svg"
             className="h-10"
-            alt="Developer Logo"
+            alt="Logo de desarrollador"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap">
             Rodrigo Vas-dev
@@ -42,7 +42,7 @@ export default function Header() {
                     download="Rodrigo_Vasquez_CV.pdf"
                     className="bg-purple-500 hidden md:flex cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                 >
-                    Download Resume
+                  Descargar CV
                 </a>
                 {/* <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
@@ -61,7 +61,7 @@ export default function Header() {
       : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
-                Home
+                Inicio
               </a>
             </li>
             <li className="mx-auto">
@@ -73,7 +73,7 @@ export default function Header() {
       : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
-                Career
+                Experiencia
               </a>
             </li>
             <li className="mx-auto">
@@ -85,7 +85,7 @@ export default function Header() {
                     : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
-                About
+                Sobre mí
               </a>
             </li>
             <li className="mx-auto">
@@ -97,7 +97,7 @@ export default function Header() {
                   : "text-gray-900 hover:text-purple-800 hover:underline hover:underline-offset-8 transition-all duration-100"
                 }`}
               >
-                Contact
+                Contacto
               </a>
             </li>
           </ul>

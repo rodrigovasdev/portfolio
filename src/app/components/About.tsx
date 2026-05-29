@@ -6,18 +6,18 @@ export default function About () {
             <div className="basis-3/5">
                 <div className="w-full md:w-3/4 grid gap-6 justify-center">
                     <div className="flex mb-10 gap-4 justify-center">
-                        <h1 className="text-5xl sm:text-7xl tracking-tight font-extrabold text-gray-900 text-center">About</h1>
-                        <h1 className="text-5xl sm:text-7xl tracking-tight font-extrabold text-purple-500"><b>me</b></h1>
+                        <h1 className="text-5xl sm:text-7xl tracking-tight font-extrabold text-gray-900 text-center">Sobre</h1>
+                        <h1 className="text-5xl sm:text-7xl tracking-tight font-extrabold text-purple-500"><b>mí</b></h1>
                     </div>
-                    <span>Web developer and Software engineer, constantly evolving and currently seeking to enhance and continue advancing my professional career as a developer. Within web development, I work with technologies like Django, React, Next.js, Tailwind, Node.js, among others that you can see on my profile.</span>
-                    <span>I am eager to join a development team to deepen my knowledge in software development. I am seeking opportunities that allow me to continue learning while contributing my skills as a full-stack developer. I am proactive and highly motivated, with a strong passion for learning new technologies and continuously growing professionally.</span>
-                    <span>In my work, I focus on understanding requirements and aligning solutions with business needs. I am also characterized by strong communication and critical thinking skills, which I apply when exploring solutions collaboratively within a team.</span>
+                    <span>Desarrollador web e ingeniero de software, en constante evolución y actualmente enfocado en potenciar y seguir avanzando mi carrera profesional como desarrollador. En desarrollo web trabajo con tecnologías como Django, React, Next.js, Tailwind y Node.js, entre otras que puedes ver en mi perfil.</span>
+                    <span>Busco integrarme a un equipo de desarrollo para profundizar mis conocimientos en ingeniería de software. Estoy en búsqueda de oportunidades que me permitan seguir aprendiendo mientras aporto mis habilidades como desarrollador full-stack. Soy proactivo, altamente motivado y con una fuerte pasión por aprender nuevas tecnologías y crecer profesionalmente de forma continua.</span>
+                    <span>En mi trabajo me enfoco en comprender requerimientos y alinear soluciones con las necesidades del negocio. También me caracterizan la comunicación efectiva y el pensamiento crítico, habilidades que aplico al explorar soluciones de forma colaborativa dentro de un equipo.</span>
                 </div>
             </div>
             <div className="basis-2/5">
                 <Image
                 src={img}
-                alt="a"
+                alt="Foto de Rodrigo"
                 className="shadow-2xl"
                 />
             </div>

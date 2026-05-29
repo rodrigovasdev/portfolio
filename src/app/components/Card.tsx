@@ -7,7 +7,7 @@ import SkillsContainer from "./SkillsContainer";
 
 const ImageGallery = dynamic(() => import('react-image-gallery'), {
     ssr: false,
-    loading: () => <p>Loading gallery...</p>
+    loading: () => <p>Cargando galería...</p>
 });
 
 // ...existing code...
@@ -53,7 +53,7 @@ export default function Card (props: CareerData & { index: number }) {
                     className={buttonClasses}
                     target="_blank"
                     >
-                        Go to website
+                        Ir al sitio web
                     </a>
                 </div>
             </div>

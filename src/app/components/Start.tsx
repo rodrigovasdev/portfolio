@@ -30,14 +30,14 @@ export default function Start({ isLoadingComplete = false }: StartProps) {
                 `,
                 backgroundSize: '21px 21px'
             }}>             
-            <h1 className="text-6xl font-semibold   ">Hi, I'm Rodrigo</h1>
-            <span style={{ whiteSpace: "pre-line" }}>Software Engineer at Pontificia Universidad Católica de Valparaíso  <br/>and passionate full-stack developer crafting innovative digital solutions.</span>
+            <h1 className="text-6xl font-semibold   ">Hola, soy Rodrigo</h1>
+            <span style={{ whiteSpace: "pre-line" }}>Ingeniero de Software de la Pontificia Universidad Católica de Valparaíso <br/>y desarrollador full-stack apasionado por crear soluciones digitales innovadoras.</span>
             <div className="flex justify-center gap-6">
                 <a
                     href="#career-0"
                     className={`bg-purple-500 cursor-pointer hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg ${showAnimations ? 'animate-slideUpFromBottom' : 'opacity-0 translate-y-12'}`}
                 >
-                    View My Career
+                    Ver mi experiencia
                 </a>
                 <a
                     href="https://www.linkedin.com/in/rodrigo-v%C3%A1squez-34425924b/"
